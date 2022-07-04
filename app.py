@@ -46,18 +46,18 @@ I can create **temp emails** for you. Send /new to **create new mail** !
 
 Send /domains to get list of Available Domains.
 
-**Developer** : @ImDenuwan | @szteambots 
+**المطور** @MOA_YAD
 """
 
 
 start_button = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("👥 Group", url="https://t.me/slbotzone"),
-                    InlineKeyboardButton("🗣 Channel", url="https://t.me/szteambots")
+                    InlineKeyboardButton("👥 المطور", url="https://t.me/MOA_YAD"),
+                    InlineKeyboardButton("🗣 تواصل", url="https://t.me/M376BOT")
                 ],
 		        [
-                    InlineKeyboardButton("➕Add to Group ➕", url=f"http://t.me/szFakeMailBot?startgroup=new"),
+                    InlineKeyboardButton("➕ ضيفني لكروبك ➕", url=f"http://t.me/szFakeMailBot?startgroup=new"),
                 ]    
             ]
 )
@@ -182,7 +182,7 @@ async def mail_box(_, query : CallbackQuery):
         mbutton = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🔗 Open Link", url=link)
+                    InlineKeyboardButton("🔗 فتح الرابط", url=link)
                 ],
                 [
                     InlineKeyboardButton("◀️ Back", f"mailbox |{email}|{domain}")
